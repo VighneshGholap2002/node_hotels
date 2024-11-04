@@ -35,9 +35,9 @@ app.use("/person", personRoutes);
 const menuRoutes = require("./routes/menuRoutes");
 app.use("/menu", menuRoutes);
 
-// app.get("/", function (req, res) {
-//   res.send("Hello World");
-// });
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
 
 // app.get("/ch", (req, res) => {
 //   res.send("chiken is ready");
